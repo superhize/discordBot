@@ -31,7 +31,7 @@ client.on("message", message => {
         }
         else
         {
-            message.channel.send("Commande inconnue, essayez "+config.prefix +"help");
+            message.channel.send("Commande inconnue, essayez "+config.prefix +"help ");
         }
 
     });
